@@ -1,6 +1,5 @@
 angular.module('joshvickerson', [
-  'ngRoute',
-  'joshvickerson.resume'
+  'ngRoute'
 ])
 
 .config([
