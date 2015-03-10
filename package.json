@@ -4,7 +4,6 @@
   "version": "0.1.0",
   "repository": "https://github.com/joshvickerson/joshvickerson.com.git",
   "dependencies": {
-    "angular": "~1.3.14",
     "gulp-concat": "^2.5.2",
     "gulp-install": "^0.2.0",
     "gulp-jshint": "^1.9.2",
