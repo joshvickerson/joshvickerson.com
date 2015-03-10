@@ -1,13 +1,11 @@
-angular.module('joshvickerson', [
+var app = angular.module('app', [
   'ngRoute'
-])
+]);
 
-.config([
+app.config([
   '$routeProvider',
   '$locationProvider',
   function($routeProvider, $locationProvider) {
-
-    $locationProvider.html5Mode(true);
 
     $routeProvider.
       when('/', {
@@ -17,5 +15,7 @@ angular.module('joshvickerson', [
       otherwise({
         redirectTo: '/'
       });
+
+    $locationProvider.html5Mode(true);
 
 }]); // end config
