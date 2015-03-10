@@ -9,7 +9,7 @@ app.config([
 
     $routeProvider.
       when('/', {
-        templateURL: 'templates/resume.html',
+        templateUrl: 'templates/resume.html',
         controller: 'ResumeController'
       }).
       otherwise({
