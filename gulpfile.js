@@ -41,7 +41,7 @@ gulp.task('minify-css', function() {
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('js/*.js', ['jshint', 'scripts']);
-    gulp.watch('stylesheets/*.styl', ['styles']);
+    gulp.watch('stylesheets/*.styl', ['styles', 'minify-css']);
 });
 
-gulp.task('default', ['jshint', 'scripts', 'styles']);
+gulp.task('default', ['jshint', 'scripts', 'styles', 'minify-css']);
