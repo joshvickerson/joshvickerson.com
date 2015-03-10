@@ -31,12 +31,12 @@ gulp.task('styles', function() {
     .pipe(gulp.dest('./stylesheets'))
 });
 
-// compress resultant css
 gulp.task('minify-css', function() {
-  return gulp.src('./stylesheets/*.css')
-    .pipe(minifyCSS({keepBreaks:true}))
-    .pipe(gulp.dest('./stylesheets/'))
-});
+  gulp.src('./stylesheets/style.css')
+    .pipe(minifyCSS())
+    .pipe(concat('style.min.css'))
+    .pipe(gulp.dest('./stylesheets'))
+})
 
 // Watch Files For Changes
 gulp.task('watch', function() {
