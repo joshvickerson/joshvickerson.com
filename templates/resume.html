@@ -1,3 +1,30 @@
-<div>
-  Hello, {{resume.name}}
+<div class="resume">
+  <h1>{{resume.name}}</h1>
+  <span class="contact-detail">{{resume.email}}</span>
+  <span class="contact-detail">{{resume.phone}}</span>
+
+  <section class="profile">
+    <h2 class="section-header">Profile</h2>
+    {{resume.profile}}
+  </section>
+
+  <section class="experience">
+    <h2 class="section-header">Work Experience</h2>
+    <div class="job-experience-item" ng-repeat="job in resume.jobs">
+      <h3 class="job-company">{{job.company}}</h3>
+      <span class="job-title">{{job.title}}</span>
+      <span class="job-location">{{job.location}}</span>
+      <span class="job-date">{{job.date}}</span>
+      <span class="job-description">{{job.description}}</span>
+    </div>
+  </section>
+
+  <section class="education">
+    <h2 class="section-header">Education</h2>
+    <h3 class="educational-institution">{{resume.education.school}}</h3>
+    <span class="education-location">{{resume.education.location}}</span>
+    <span class="education-major">{{resume.education.major}}</span>
+    <span class="education-minor">{{resume.education.minor}}</span>
+    <span class="education-years">{{resume.education.years}}</span>
+  </section>
 </div>
