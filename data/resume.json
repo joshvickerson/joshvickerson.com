@@ -7,7 +7,7 @@
   "skills"    : "HTML, CSS, JavaScript, AngularJS, PHP, Wordpress, Node.js, Java, and Python",
   "education" : {
                   "school"   : "Rochester Institute of Technology",
-                  "location" : "Rochester, NY 14623"
+                  "location" : "Rochester, NY 14623",
                   "major"    : "Information Technology",
                   "minor"    : "Communications",
                   "years"    : "2011 - 2016"
