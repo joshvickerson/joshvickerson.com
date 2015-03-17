@@ -1,0 +1,6 @@
+<div class="social-container" ng-controller="SocialController">
+  <img ng-src="img/joshvickerson.png" />
+  <ul class="social-list">
+    <li ng-class="{{item.network}}" ng-repeat="item in social">{{item.network}}</li>
+  </ul>
+</div>
