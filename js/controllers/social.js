@@ -1,10 +1,13 @@
 app.controller('SocialController',['$scope', '$http', function($scope, $http) {
 
-  $http.get('data/social.json')
-    .success(function(data) {
-        $scope.social=data;
-    })
-    .error(function(data,status,error,config){
-        $scope.social = {"error":"failed to fetch social data"};
-    });
+  $scope.social = {
+    "facebook"  : "https://www.facebook.com/josh.vickerson",
+    "twitter"   : "http://twitter.com/joshvickerson",
+    "linkedin"  : "http://www.linkedin.com/in/joshvickerson/",
+    "github"    : "https://github.com/joshvickerson",
+    "instagram" : "https://instagram.com/joshvickerson/",
+    "google"    : "https://plus.google.com/115799854881105672303"
+  };
+
+
 }]);
