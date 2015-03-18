@@ -3,12 +3,14 @@
   <head>
     <base href="/">
     <link rel="stylesheet" type="text/css" href="stylesheets/style.min.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,700,200' rel='stylesheet' type='text/css'>
   </head>
   <body>
 
-    <div ng-include="'templates/social.html'"></div>
-
-    <div ng-view></div>
+    <div class="content-wrapper">
+      <div class="sidebar" ng-include="'templates/social.html'"></div>
+      <div class="main" ng-view></div>
+    </div>
 
     <script src="bower_components/angular/angular.min.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
