@@ -5,7 +5,9 @@
 
   <section class="profile">
     <h2 class="section-header">Profile</h2>
-    {{resume.profile}}
+    <p>
+      {{resume.profile}}
+    </p>
   </section>
 
   <section class="experience">
@@ -13,8 +15,8 @@
     <div class="job-experience-item" ng-repeat="job in resume.jobs">
       <h3 class="job-company">{{job.company}}</h3>
       <span class="job-title">{{job.title}}</span>
-      <span class="job-location">{{job.location}}</span>
       <span class="job-date">{{job.date}}</span>
+      <span class="job-location">{{job.location}}</span>
       <span class="job-description">{{job.description}}</span>
     </div>
   </section>
