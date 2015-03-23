@@ -3,7 +3,6 @@ var stylus = require('gulp-stylus');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var jshint = require('gulp-jshint');
-var rename = require('gulp-rename');
 var minifyCSS = require('gulp-minify-css');
 
 // lint js using jshint
@@ -14,7 +13,7 @@ gulp.task('jshint', function() {
 });
 
 // combine and minify all js
-gulp.task('scripts', function() {
+gulp.task('scripts', ['jshint'], function() {
     return gulp.src(['js/**/*.js', '!js/**/*.min.js'])
         .pipe(concat('all.min.js'))
         .pipe(uglify())
@@ -32,7 +31,7 @@ gulp.task('styles', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch('js/*.js', ['jshint', 'scripts']);
+    gulp.watch('js/*.js', ['scripts']);
     gulp.watch('stylesheets/*.styl', ['styles']);
 });
 
