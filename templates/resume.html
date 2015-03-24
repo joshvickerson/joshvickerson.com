@@ -1,7 +1,7 @@
 <div class="resume">
   <h1>{{resume.name}}</h1>
-  <span class="contact-detail">{{resume.email}}</span>
-  <span class="contact-detail">{{resume.phone}}</span>
+  <span class="contact-detail"><a href="mailto:josh@joshvickerson.com">{{resume.email}}</a></span>
+  <span class="contact-detail"><a href-"tel:+12075769946">{{resume.phone}}</a></span>
 
   <section class="profile">
     <h2 class="section-header">Profile</h2>
@@ -25,8 +25,8 @@
     <h2 class="section-header">Education</h2>
     <h3 class="educational-institution">{{resume.education.school}}</h3>
     <span class="education-location">{{resume.education.location}}</span>
-    <span class="education-major">{{resume.education.major}}</span>
-    <span class="education-minor">{{resume.education.minor}}</span>
+    <span class="education-major">Major: {{resume.education.major}}</span>
+    <span class="education-minor">Minor: {{resume.education.minor}}</span>
     <span class="education-years">{{resume.education.years}}</span>
   </section>
 </div>

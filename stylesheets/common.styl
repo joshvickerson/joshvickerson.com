@@ -6,7 +6,7 @@ html, body
   font-family font
   font-size 100%
   color default-gray
-  background-color #f5f2e9
+  background-color #f4f1ea
 
 h1, h2
   color dark-blue
@@ -22,14 +22,22 @@ p
   width 100%
   max-width 1000px
   margin auto
-  margin-top 30px;
+  margin-top 10px;
 
 .sidebar
-  width 30%
-  height 100%
-  float left
+  width 100%
 
 .main
-  width 70%
-  height 100%
-  float left
+  width 100%
+
+@media screen and (min-width: 31.25em)
+  .content-wrapper
+    margin-top 30px
+  .sidebar
+    width 30%
+    height 100%
+    float left
+  .main
+    width 70%
+    height 100%
+    float left

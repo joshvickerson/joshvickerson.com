@@ -1,4 +1,7 @@
-<div class="social-container" ng-controller="SocialController">
+<div class="sidebar-container" ng-controller="SocialController">
+  <nav role="main">
+    <a href="http://blog.joshvickerson.com">Blog</a>
+  </nav>
   <img ng-src="img/joshvickerson.png" />
   <ul class="social-list">
     <li class="{{network}}" ng-repeat="(network, url) in social track by network"><a ng-href="{{url}}"></a></li>
