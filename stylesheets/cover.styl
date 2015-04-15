@@ -1,0 +1,98 @@
+@import "vars.styl"
+.cover-container
+  background-color #1F1F1F
+  width 100%
+  padding 30px 0px
+  position relative
+
+  .profile
+    display block
+    width 150px
+    border-radius 150px
+    border 3px solid #fefefe
+    margin auto
+    box-sizing border-box
+
+nav
+  margin-bottom 10px
+  text-align center
+  width 50%
+  max-width 120px
+  a
+    display block
+    padding 15px 0px
+    font-size 1.1rem;
+    color dark-gray
+    text-decoration none
+    width 100%
+    border-right thin solid default-gray
+    border-bottom thin solid default-gray
+
+.social-list
+  overflow hidden
+  padding 0
+  margin auto
+  width 312px
+  li
+    float left
+    list-style-type none
+    width 48px
+    height 48px
+    margin 15px 4px 15px 0px
+    border-radius 32px
+    background-size 75%
+    background-repeat no-repeat
+    background-position center
+    background-color #111
+    border 2px solid #fff
+    box-sizing border-box
+    a
+      display block
+      width 100%
+      height 100%
+    &.facebook
+      background-image url('/img/facebook-128.png')
+      background-color #3b5998
+    &.twitter
+      background-image url('/img/twitter-128.png')
+      background-color #55acee
+    &.linkedin
+      background-image url('/img/linkedin-128.png')
+      background-color #0976b4
+    &.google
+      background-image url('/img/google-128.png')
+      background-color #dd4b39
+    &.github
+      background-image url('/img/github-128.png')
+    	background-color #111
+    &.instagram
+      background-image url('/img/instagram-128.png')
+      background-color #3f729b
+      background-size 50%
+@media screen and (min-width: 33.25em)
+  .cover-container
+    background-image url('../img/min.png')
+    background-repeat no-repeat
+    background-size 100% auto
+    background-position 50% 50%
+    .profile
+      margin 0px 20px 50px
+
+  .social-list
+    position absolute
+    bottom 3px
+    padding-left 20px
+
+@media screen and (min-width: 51.25em)
+  .cover-container
+    .profile
+      width 200px
+      border-radius 200px
+
+@media screen and (min-width: 72.5em)
+  .cover-container
+    .profile
+      margin 0px 50px 50px
+
+  .social-list
+    padding-left 50px

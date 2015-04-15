@@ -6,7 +6,7 @@ html, body
   font-family font
   font-size 100%
   color default-gray
-  background-color #f4f1ea
+  background-color #fafafa
 
 h1, h2
   color dark-blue
@@ -19,36 +19,24 @@ h3
 p
   margin 0
 .content-wrapper
-  width 100%
-  max-width 1000px
+  max-width 768px
   margin auto
-  margin-top 10px
-  padding-bottom 45px
+  margin-top 0px
+  padding 0px 15px 45px
 
-.sidebar
-  width 100%
-
-.main
+.cover
   width 100%
 
 @media screen and (min-width: 31.25em)
   .content-wrapper
-    margin-top 30px
-  .sidebar
-    width 30%
-    height 100%
-    float left
-  .main
-    width 70%
-    height 100%
-    float left
+    margin-top 10px
 
 @media print
   html
     font-size 10pt
     margin 2em
     width auto
-  .sidebar, .contact-detail, .profile
+  .cover, .contact-detail, .profile
     display none
   .main
     margin 1em
