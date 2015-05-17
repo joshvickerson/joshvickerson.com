@@ -40,7 +40,10 @@ gulp.task('styles', function() {
 
 gulp.task('inject', ['scripts'], function() {
   gulp.src('./index.html')
-    .pipe(inject(gulp.src('js/all.min.js'), { read: false }))
+    .pipe(inject(gulp.src('js/all.min.js'), { read: false,
+      transform: function (filepath, file, i, length) {
+          return '<script src="' + filepath + '" async></script>';
+      }}))
     .pipe(gulp.dest('./'));
 });
 
