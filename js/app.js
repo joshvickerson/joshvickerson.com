@@ -1,5 +1,7 @@
 var app = angular.module('app', [
-  'ngRoute'
+  'ngRoute',
+  'angulartics',
+  'angulartics.google.analytics'
 ]);
 
 app.config([

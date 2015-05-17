@@ -13,5 +13,10 @@
     "gulp-uglify": "^1.1.0",
     "jshint": "^2.6.3",
     "stylus": "^0.50.0"
+  },
+  "devDependencies": {
+    "gulp-bower-files": "^0.2.7",
+    "gulp-inject": "^1.2.0",
+    "main-bower-files": "^2.8.0"
   }
 }
