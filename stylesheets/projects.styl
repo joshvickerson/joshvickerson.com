@@ -1,0 +1,45 @@
+@import "vars.styl"
+
+.project-container
+  width 100%
+  margin 10px 0px
+  display inline-block
+  border 2px solid #333
+  border-radius 0px 0px 5px 5px
+  box-sizing border-box
+  vertical-align top
+
+.project-cover
+  position relative
+  padding-bottom 56.25% /* 169 ratio */
+  height 0
+  overflow hidden
+  border-bottom solid thin #333
+
+.project-cover img
+  position absolute
+  top 0
+  left 0
+  width 100%
+  height 100%
+
+
+.project-content
+  padding 5px
+
+  h2
+    margin 2px 0px
+
+  a
+    display block
+    width 100%
+    padding 5px 0px
+    margin-right 5px
+    text-align right
+    color accent-red
+
+@media screen and (min-width: 33.25em)
+  .project-container
+    width 49%
+    margin 10px .5%
+    display inline-block

@@ -6,6 +6,7 @@ var jshint = require('gulp-jshint');
 var minifyCSS = require('gulp-minify-css');
 var mainBowerFiles = require('main-bower-files');
 var inject = require('gulp-inject');
+var del = require('del');
 
 var paths = {
   jsLib: mainBowerFiles(),
@@ -23,6 +24,7 @@ gulp.task('jshint', function() {
 
 // combine and minify all js
 gulp.task('scripts', ['jshint'], function() {
+    del('js/all.min.js');
     return gulp.src(jsAll)
         .pipe(concat('all.min.js'))
         .pipe(uglify())
