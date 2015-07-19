@@ -2,7 +2,7 @@
   <h1>Projects</h1>
   <div class="project-container" ng-repeat="project in projects">
     <div class="project-cover">
-      <img src="{{project.cover}}" alt="{{project.name}} cover photo" />
+      <img ng-src="{{project.cover}}" alt="{{project.name}} cover photo" />
     </div>
     <div class="project-content">
       <h2 class="project-title">{{project.name}}</h2>
