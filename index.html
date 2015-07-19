@@ -26,10 +26,12 @@
         <li class="{{network}}" ng-repeat="(network, url) in social track by network"><a ng-href="{{url}}" analytics-on analytics-event="{{network}}"></a></li>
       </ul>
     </div>
-    <nav role="main">
-      <a href="http://blog.joshvickerson.com" analytics-on analytics-event="blog">Blog</a>
-    </nav>
     <div class="content-wrapper">
+      <nav role="main">
+        <a href="#/">Resume</a>
+        <a href="#/projects">Projects</a>
+        <a href="http://blog.joshvickerson.com" analytics-on analytics-event="blog">Blog</a>
+      </nav>
       <div class="main" ng-view></div>
     </div>
 
