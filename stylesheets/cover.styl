@@ -41,36 +41,36 @@ nav
     width 48px
     height 48px
     margin 15px 4px 15px 0px
-    border-radius 32px
-    background-size 75%
-    background-repeat no-repeat
-    background-position center
-    background-color #111
-    border 2px solid #fff
-    box-sizing border-box
     a
       display block
       width 100%
       height 100%
-    &.facebook
-      background-image url('/img/facebook-128.png')
-      background-color #3b5998
-    &.twitter
-      background-image url('/img/twitter-128.png')
-      background-color #55acee
-    &.linkedin
-      background-image url('/img/linkedin-128.png')
-      background-color #0976b4
-    &.google
-      background-image url('/img/google-128.png')
-      background-color #dd4b39
-    &.github
-      background-image url('/img/github-128.png')
-    	background-color #111
-    &.instagram
-      background-image url('/img/instagram-128.png')
-      background-color #3f729b
-      background-size 50%
+      background-color #fff
+      border-radius 48px
+      svg
+        width 100%
+        height 100%
+        position relative
+        top -1px
+    &.facebook svg
+      fill #3b5998
+    &.twitter svg
+      fill #55acee
+    &.linkedin svg
+      fill #0976b4
+    &.google svg
+      fill #dd4b39
+    &.instagram svg
+      fill #3f729b
+  li.github a
+    background-size 100%
+    background-repeat no-repeat
+    background-position center
+    border 3px solid #fff
+    box-sizing border-box
+    background-color #111
+    background-image url('../img/github-128.png')
+
 @media screen and (min-width: 33.25em)
   .cover-container
     background-image url('../img/min.png')
