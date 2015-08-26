@@ -1,7 +1,8 @@
 <div class="resume">
-  <h1>{{resume.name}}</h1>
-  <span class="contact-detail"><a href="mailto:josh@joshvickerson.com">{{resume.email}}</a></span>
-
+  <div itemscope itemtype="http://schema.org/Person">
+    <h1 itemprop="name">{{resume.name}}</h1>
+    <span itemprop="email" class="contact-detail"><a href="mailto:josh@joshvickerson.com">{{resume.email}}</a></span>
+  </div>
   <section class="profile">
     <h2 class="section-header">Profile</h2>
     <p>
