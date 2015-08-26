@@ -14,10 +14,12 @@ app.config([
         templateUrl: 'templates/resume.html',
         controller: 'ResumeController'
       }).
+      when('/projects', {
+        templateUrl: 'templates/projects.html',
+        controller: 'ProjectController'
+      }).
       otherwise({
         redirectTo: '/'
       });
-
-    $locationProvider.html5Mode(true);
 
 }]); // end config
