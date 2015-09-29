@@ -10,6 +10,23 @@
     </p>
   </section>
 
+  <section class="education">
+    <h2 class="section-header">Education</h2>
+    <h3 class="educational-institution">{{resume.education.school}}</h3>
+    <span class="education-location">{{resume.education.location}}</span>
+    <span class="education-major">Degree: B.S. {{resume.education.major}}</span>
+    <span class="education-minor">Minor: {{resume.education.minor}}</span>
+    <span class="education-years">{{resume.education.years}}</span>
+  </section>
+
+  <section class="skills">
+    <h2 class="section-header">Skills</h2>
+    <h3 class="skills-prefix">Highly proficient with:</h3>
+    <span class="skill-list">{{resume.skills["1"]}}</span>
+    <h3 class="skills-prefix">Experience with:</h3>
+    <span class="skill-list">{{resume.skills["2"]}}</span>
+  </section>
+
   <section class="experience">
     <h2 class="section-header">Work Experience</h2>
     <div class="job-experience-item" ng-repeat="job in resume.jobs">
@@ -19,14 +36,5 @@
       <span class="job-location">{{job.location}}</span>
       <span class="job-description">{{job.description}}</span>
     </div>
-  </section>
-
-  <section class="education">
-    <h2 class="section-header">Education</h2>
-    <h3 class="educational-institution">{{resume.education.school}}</h3>
-    <span class="education-location">{{resume.education.location}}</span>
-    <span class="education-major">Major: {{resume.education.major}}</span>
-    <span class="education-minor">Minor: {{resume.education.minor}}</span>
-    <span class="education-years">{{resume.education.years}}</span>
   </section>
 </div>

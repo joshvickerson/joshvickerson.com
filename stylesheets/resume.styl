@@ -1,3 +1,4 @@
+@import "vars.styl"
 .resume
   h1
     margin 0px 0px 5px
@@ -14,6 +15,7 @@
     font-weight 400
   section
     margin-bottom 15px
+    display inline-block
 .contact-detail
   margin 5px 0px
   a
@@ -35,7 +37,17 @@
   .education-major
     margin-top 7px
     font-weight 700
+.skills
+  .skills-prefix
+    margin-right 3px
+    color default-gray
+  span
+    display inline-block
 
+@media screen and (min-width: 31.25em)
+  .education, .skills
+    width 49.5%
+    vertical-align top
 
 @media print
   .contact-detail
@@ -46,3 +58,6 @@
       margin-top 10px
     .job-description
       margin-top 4px
+  .education, .skills
+    width 49.5%
+    vertical-align top

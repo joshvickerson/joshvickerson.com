@@ -3,7 +3,10 @@
   "email"     : "josh@joshvickerson.com",
   "website"   : "joshvickerson.com",
   "profile"   : "Student, web developer, aspiring minimalist, and programmer with a keen interest in design looking for opportunities to impact the lives of others.",
-  "skills"    : "HTML, CSS, JavaScript, AngularJS, PHP, Wordpress, Node.js, Java, and Python",
+  "skills"    : {
+    "1" : "HTML, CSS, JavaScript",
+    "2" : "AngularJS, PHP, Wordpress, Node.js, Java, Gulp, MySQL, SASS/LESS"
+  },
   "education" : {
                   "school"   : "Rochester Institute of Technology",
                   "location" : "Rochester, NY 14623",
