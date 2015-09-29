@@ -37,4 +37,13 @@
       <span class="job-description">{{job.description}}</span>
     </div>
   </section>
+
+  <section class="extracurricular">
+    <h2 class="section-header">Extracurricular Activities & Projects</h2>
+    <div class="extracurricular-item" ng-repeat="item in resume.extra">
+      <h3>{{item.name}}</h3>
+      <span class="extracurricular-description">{{item.description}}</span>
+    </div>
+  </section>
+
 </div>

@@ -2,7 +2,7 @@
   "name"      : "Josh Vickerson",
   "email"     : "josh@joshvickerson.com",
   "website"   : "joshvickerson.com",
-  "profile"   : "Student, web developer, aspiring minimalist, and programmer with a keen interest in design looking for opportunities to impact the lives of others.",
+  "profile"   : "Experienced student web developer, aspiring minimalist, and programmer with a keen interest in design looking for professional opportunities to impact the lives of others.",
   "skills"    : {
     "1" : "HTML, CSS, JavaScript",
     "2" : "AngularJS, PHP, Wordpress, Node.js, Java, Gulp, MySQL, SASS/LESS"
@@ -42,13 +42,20 @@
                     "location"   : "Princeton, NJ",
                     "date"       : "2012 - 2014",
                     "description": "Instructed a class of 8 school-aged children in various topics including programming in Java, and web design and development. Additional responsibilities included leading group activities, interacting with parents for camp operations, and serving as a mentor / resource for other instructors."
-                  },
-                  "4" : {
-                    "company"    : "RIT Academic Support Center",
-                    "title"      : "Lead Peer Advisor",
-                    "location"   : "Rochester, NY",
-                    "date"       : "2013 - Current",
-                    "description": "Worked in a classroom setting for a freshman enrichment course. Responsibilities included planning and facilitating lessons and activities, and acting as a mentor and point of contact for freshman students. Also responsible for planning and facilitating team meetings, and reporting to professional staff."
                   }
-                }
+                },
+  "extra"     : [
+                  {
+                    "name" : "Localhost",
+                    "description" : "Vice President, co-founder of Localhost, an open-forum student group at RIT focused on web and mobile application design & development."
+                  },
+                  {
+                    "name" : "YearOne Peer Advisor",
+                    "description" : "Served as a peer advisor for the freshman seminar course YearOne."
+                  },
+                  {
+                    "name" : "Scorepad",
+                    "description" : "Developed a simple scorekeeping application for iOS using the Ionic Framework."
+                  }
+                ]
 }

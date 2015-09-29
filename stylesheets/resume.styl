@@ -3,10 +3,10 @@
   h1
     margin 0px 0px 5px
   h2
-    margin 10px 0px 5px
+    margin 8px 0px 5px
     font-size 1.5rem
   h3
-    margin 15px 0px 3px
+    margin 12px 0px 3px
     font-size 1.15rem
   span
     display block
@@ -22,20 +22,11 @@
     color inherit
     &:visited
       color inherit
-.job-date
-  margin 3px 0px
-.job-date, .job-location
-  font-size .9rem
-.job-description
-  display block
-  margin-top 7px
-  font-weight 400
-  font-size .85rem
 .education
   span
     font-size 0.9rem
   .education-major
-    margin-top 7px
+    margin-top 5px
     font-weight 700
 .skills
   .skills-prefix
@@ -43,11 +34,28 @@
     color default-gray
   span
     display inline-block
+.job-date
+  margin 2px 0px
+.job-date, .job-location
+  font-size .9rem
+.job-description
+  display block
+  margin-top 7px
+  font-weight 400
+  font-size .85rem
+.extracurricular-description
+  font-size 0.9rem
+
 
 @media screen and (min-width: 31.25em)
   .education, .skills
     width 49.5%
     vertical-align top
+  .extracurricular-item
+    display inline-block
+    vertical-align top
+    width 32%
+    margin 0 .5%
 
 @media print
   .contact-detail
@@ -55,9 +63,14 @@
   .resume
     padding 0
     h2, h3
-      margin-top 10px
+      margin-top 8px
     .job-description
       margin-top 4px
   .education, .skills
     width 49.5%
     vertical-align top
+  .extracurricular-item
+    display inline-block
+    vertical-align top
+    width 32%
+    margin 0 .5%
