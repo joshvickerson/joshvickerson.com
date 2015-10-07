@@ -27,6 +27,9 @@ p
 .cover
   width 100%
 
+.print-only
+  display none !important
+
 @media screen and (min-width: 31.25em)
   .content-wrapper
     margin-top 10px
@@ -36,6 +39,8 @@ p
     font-size 10pt
     margin 2em
     width auto
+  .print-only
+    display inherit !important
   .cover-container, .contact-detail, .content-wrapper nav
     display none
   .main
