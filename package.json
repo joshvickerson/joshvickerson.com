@@ -5,6 +5,7 @@
   "repository": "https://github.com/joshvickerson/joshvickerson.com.git",
   "dependencies": {
     "del": "^1.2.0",
+    "gulp": "^3.9.0",
     "gulp-concat": "^2.5.2",
     "gulp-install": "^0.2.0",
     "gulp-jshint": "^1.9.2",
