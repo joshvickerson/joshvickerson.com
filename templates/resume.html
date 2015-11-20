@@ -1,8 +1,8 @@
 <div class="resume">
   <section class="contact" itemscope itemtype="http://schema.org/Person">
     <div>
-      <h1 itemprop="name">{{resume.name}}</h1>
-      <span itemprop="email" class="contact-detail"><a href="mailto:josh@joshvickerson.com">{{resume.email}}</a></span>
+      <h1 itemprop="name">{{::resume.name}}</h1>
+      <span itemprop="email" class="contact-detail"><a href="mailto:josh@joshvickerson.com">{{::resume.email}}</a></span>
       <span class="print-only">207.576.9946</span>
     </div>
     <div class="print-only">
@@ -15,30 +15,30 @@
   <section class="profile">
     <h2 class="section-header">Profile</h2>
     <p>
-      {{resume.profile}}
+      {{::resume.profile}}
     </p>
   </section>
 
   <section class="education">
     <h2 class="section-header">Education</h2>
-    <h3 class="educational-institution">{{resume.education.school}}</h3>
-    <span class="education-location">{{resume.education.location}}</span>
-    <span class="education-major">Degree: B.S. {{resume.education.major}}</span>
-    <span class="education-minor">Minor: {{resume.education.minor}}</span>
-    <span class="education-years">{{resume.education.years}}</span>
+    <h3 class="educational-institution">{{::resume.education.school}}</h3>
+    <span class="education-location">{{::resume.education.location}}</span>
+    <span class="education-major">Degree: B.S. {{::resume.education.major}}</span>
+    <span class="education-minor">Minor: {{::resume.education.minor}}</span>
+    <span class="education-years">{{::resume.education.years}}</span>
   </section>
 
   <section class="skills">
     <h2 class="section-header">Skills</h2>
     <h3 class="skills-prefix">Highly proficient with:</h3>
-    <span class="skill-list">{{resume.skills["1"]}}</span>
+    <span class="skill-list">{{::resume.skills["1"]}}</span>
     <h3 class="skills-prefix">Experience with:</h3>
-    <span class="skill-list">{{resume.skills["2"]}}</span>
+    <span class="skill-list">{{::resume.skills["2"]}}</span>
   </section>
 
   <section class="experience">
     <h2 class="section-header">Work Experience</h2>
-    <div class="job-experience-item" ng-repeat="job in resume.jobs">
+    <div class="job-experience-item" ng-repeat="job in ::resume.jobs">
       <h3 class="job-company">{{job.company}}</h3>
       <span class="job-title">{{job.title}}</span>
       <span class="job-date">{{job.date}}</span>
@@ -49,7 +49,7 @@
 
   <section class="extracurricular">
     <h2 class="section-header">Extracurricular Activities & Projects</h2>
-    <div class="extracurricular-item" ng-repeat="item in resume.extra">
+    <div class="extracurricular-item" ng-repeat="item in ::resume.extra">
       <h3>{{item.name}}</h3>
       <span class="extracurricular-description">{{item.description}}</span>
     </div>
