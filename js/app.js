@@ -7,8 +7,9 @@ var app = angular.module('app', [
 app.config([
   '$routeProvider',
   '$locationProvider',
-  function($routeProvider, $locationProvider) {
-
+  '$compileProvider',
+  function($routeProvider, $locationProvider, $compileProvider) {
+    $compileProvider.debugInfoEnabled(false); // comment this line while developing
     $routeProvider.
       when('/', {
         templateUrl: 'templates/resume.html',
