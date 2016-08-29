@@ -2,7 +2,7 @@
   "name"      : "Josh Vickerson",
   "email"     : "josh@joshvickerson.com",
   "website"   : "joshvickerson.com",
-  "profile"   : "Experienced student web developer, aspiring minimalist, and programmer with a keen interest in design looking for professional opportunities to impact the lives of others.",
+  "profile"   : "Recent RIT grad, aspiring minimalist, and web developer with a keen interest in design. Fast websites are my jam.",
   "skills"    : {
     "1" : "HTML, CSS, JavaScript",
     "2" : "AngularJS, PHP, Wordpress, Node.js, Java, Gulp, MySQL, SASS/LESS"
@@ -16,25 +16,25 @@
                 },
   "jobs"      : {
                   "0" : {
+                    "company"    : "ClickSpark",
+                    "title"      : "Web Developer",
+                    "location"   : "Rochester, NY",
+                    "date"       : "Apr, 2016 - current",
+                    "description": "Current responsibilities are developing and maintaining web-based software that powers ClickSpark's powerful lead generation engine and call center operations."
+                  },
+                  "1" : {
                     "company"    : "mySpiderweb",
                     "title"      : "Javascript Developer",
                     "location"   : "Rochester, NY",
-                    "date"       : "Dec, 2015 - current",
-                    "description": "mySpiderweb is a social media publishing tool that streamlines a multi-network presence for small businesses. Currently developing a social media analytics feature integrating data from Facebook, Twitter and LinkedIn."
+                    "date"       : "Dec, 2015 - June, 2016",
+                    "description": "mySpiderweb is a social media publishing tool that streamlines a multi-network presence for small businesses. Helped plan and develop a social media analytics feature integrating data from Facebook, Twitter and LinkedIn."
                   },
-                  "1" : {
+                  "2" : {
                     "company"    : "Brand Networks",
                     "title"      : "Student Software Engineer (Co-Op)",
                     "location"   : "Rochester, NY",
                     "date"       : "Jan, 2014 - July, 2015",
                     "description": "Completed web development projects for Brand Networks' clients using various technologies, including Wordpress, Node.js, and AngularJS. Internal projects included an embeddable widget framework, project generator, i18n framework and a livestream Q&A widget."
-                  },
-                  "2" : {
-                    "company"    : "RIT New Student Orientation",
-                    "title"      : "Student Orientation Coordinator",
-                    "location"   : "Rochester, NY",
-                    "date"       : "August, 2012 - August, 2015",
-                    "description": "Worked with professional staff to develop and deliver the Orientation experience for new students at RIT. Recruited and hired staff, managed operations, developed and facilitated a training program for more than 150 staff."
                   },
                   "3" : {
                     "company"    : "RIT Information Technology Services",
