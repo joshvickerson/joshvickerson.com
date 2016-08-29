@@ -2,7 +2,7 @@
   "name"      : "Josh Vickerson",
   "email"     : "josh@joshvickerson.com",
   "website"   : "joshvickerson.com",
-  "profile"   : "Experienced student web developer, aspiring minimalist, and programmer with a keen interest in design looking for professional opportunities to impact the lives of others.",
+  "profile"   : "Recent RIT grad, aspiring minimalist, and web developer with a keen interest in design. Fast websites are my jam.",
   "skills"    : {
     "1" : "HTML, CSS, JavaScript",
     "2" : "AngularJS, PHP, Wordpress, Node.js, Java, Gulp, MySQL, SASS/LESS"
@@ -27,7 +27,7 @@
                     "title"      : "Javascript Developer",
                     "location"   : "Rochester, NY",
                     "date"       : "Dec, 2015 - June, 2016",
-                    "description": "mySpiderweb is a social media publishing tool that streamlines a multi-network presence for small businesses. Currently developing a social media analytics feature integrating data from Facebook, Twitter and LinkedIn."
+                    "description": "mySpiderweb is a social media publishing tool that streamlines a multi-network presence for small businesses. Helped plan and develop a social media analytics feature integrating data from Facebook, Twitter and LinkedIn."
                   },
                   "2" : {
                     "company"    : "Brand Networks",
