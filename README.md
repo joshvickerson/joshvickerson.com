@@ -1,2 +1,2 @@
 # joshvickerson.com
-My personal website.
+My personal website. [Check it out](https://www.joshvickerson.com/#).
