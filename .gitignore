@@ -5,3 +5,9 @@ bower_components/*
 npm-debug.log
 all.js
 all.min.js
+.htaccess
+test/*
+share/*
+log/*
+favicon.ico
+sitemap.xml
