@@ -10,9 +10,10 @@
   "education" : {
                   "school"   : "Rochester Institute of Technology",
                   "location" : "Rochester, NY 14623",
-                  "major"    : "Information Technology, Summa Cum Laude",
+                  "major"    : "Information Technology",
                   "minor"    : "Communications",
-                  "years"    : "2011 - 2016"
+                  "years"    : "2011 - 2016",
+                  "honors"   : "Summa Cum Laude"
                 },
   "jobs"      : {
                   "0" : {
