@@ -3,7 +3,7 @@ app.controller('ProjectController', ['$scope', function($scope) {
   $scope.projects = [
     {
       name: 'Localhost',
-      description: 'I\'m Vice President and co-founder of Localhost, an open-forum student group at RIT focused on web and mobile application design & development.',
+      description: 'Vice President and co-founder of Localhost, an open-forum student group at RIT focused on web and mobile application design & development.',
       cover: 'img/localhost_cover.png',
       url: 'http://www.ritlocalhost.com'
     },
