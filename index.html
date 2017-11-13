@@ -24,6 +24,7 @@
     <meta property="og:url" content="http://www.joshvickerson.com/">
     <meta property="og:description" content="Josh Vickerson is an experienced student web developer, aspiring minimalist, and programmer with a keen interest in design looking for professional opportunities to impact the lives of others.">
     <meta property="og:image" content="http://www.joshvickerson.com/img/joshvickerson.png">
+    <link rel="manifest" href="manifest.json"></link>
   </head>
   <body>
 
@@ -139,7 +140,20 @@
         <p>Drawing of me by the talented, <a href="http://tncanonico.com">Tia Canonico</a></p>
       </footer>
     </div>
+    <script>
+      if (navigator.serviceWorker.controller) {
+        console.log('[PWA Builder] active service worker found, no need to register')
+      } else {
 
+      //Register the ServiceWorker
+        navigator.serviceWorker.register('serviceworker.js', {
+          scope: './'
+        }).then(function(reg) {
+          console.log('Service worker has been registered for scope:'+ reg.scope);
+        });
+      }
+    </script>
+    <script src="manup.min.js"></script>
     <!-- inject:js -->
     <script src="/js/all.min.js" async></script>
     <!-- endinject -->
