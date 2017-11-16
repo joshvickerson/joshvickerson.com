@@ -3,8 +3,7 @@
   "description": "Personal website of Josh Vickerson",
   "version": "0.1.0",
   "repository": "https://github.com/joshvickerson/joshvickerson.com.git",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp-bower-files": "^0.2.7",
     "gulp-inject": "^1.5.0",
