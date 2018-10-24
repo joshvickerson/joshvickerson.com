@@ -12,3 +12,10 @@
   "date"       : "August, 2012 - August, 2015",
   "description": "Worked with professional staff to develop and deliver the Orientation experience for new students at RIT. Recruited and hired staff, managed operations, developed and facilitated a training program for more than 150 staff."
 },
+"3" : {
+  "company"    : "RIT Information Technology Services",
+  "title"      : "Senior Residential Computing Consultant, Lead TCenter Developer",
+  "location"   : "Rochester, NY",
+  "date"       : "Oct, 2011 - Oct, 2014",
+  "description": "Provided technical support and services for computers personally owned by RIT students, faculty and staff. Also responsible for quality assurance checks in both technical- and customer service-oriented tasks. Also the lead developer for an internal PHP / MySQL application used as a ticketing system."
+}
