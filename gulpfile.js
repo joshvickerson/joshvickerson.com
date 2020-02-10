@@ -6,7 +6,7 @@ var minifyCSS = require('gulp-minify-css');
 var inject = require('gulp-inject');
 var del = require('del');
 
-var paths = ['js/lib/*.js', 'js/app/**/*.js', '!js/all.min.js'];
+var paths = ['js/app/**/*.js', '!js/all.min.js'];
 
 // combine and minify all js
 gulp.task('scripts', function() {
