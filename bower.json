@@ -1,9 +1,0 @@
-{
-  "name": "joshvickerson.com",
-  "version": "0.1.0",
-  "ignore": [],
-  "dependencies": {
-    "angular": "^1.5.11",
-    "angular-route": "^1.5.11"
-  }
-}

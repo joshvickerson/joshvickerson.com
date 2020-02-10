@@ -2,30 +2,16 @@ var gulp = require('gulp');
 var stylus = require('gulp-stylus');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var jshint = require('gulp-jshint');
 var minifyCSS = require('gulp-minify-css');
-var mainBowerFiles = require('main-bower-files');
 var inject = require('gulp-inject');
 var del = require('del');
 
-var paths = {
-  jsLib: mainBowerFiles(),
-  jsApp: ['js/**/*.js', '!js/**/*.min.js']
-}
-
-var jsAll = paths.jsLib.concat(paths.jsApp);
-
-// lint js using jshint
-gulp.task('jshint', function() {
-    return gulp.src(paths.jsApp)
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
-});
+var paths = ['js/lib/*.js', 'js/app/**/*.js', '!js/all.min.js'];
 
 // combine and minify all js
-gulp.task('scripts', ['jshint'], function() {
+gulp.task('scripts', function() {
     del('js/all.min.js');
-    return gulp.src(jsAll)
+    return gulp.src(paths)
         .pipe(concat('all.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('js'))
