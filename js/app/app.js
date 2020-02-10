@@ -1,14 +1,11 @@
 var app = angular.module('app', [
   'ngRoute',
-  'angulartics',
-  'angulartics.google.analytics'
 ]);
 
 app.config([
   '$routeProvider',
-  '$locationProvider',
   '$compileProvider',
-  function($routeProvider, $locationProvider, $compileProvider) {
+  function($routeProvider, $compileProvider) {
     $compileProvider.debugInfoEnabled(false); // comment this line while developing
     $routeProvider.
       when('/', {
